@@ -1,0 +1,7 @@
+./ssson_svc.c
+./client.c
+./ssson_server.c
+./ssson_client.c
+./ssson.h
+./ssson_xdr.c
+./ssson_clnt.c

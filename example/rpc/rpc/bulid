@@ -1,0 +1,5 @@
+rcpgen ssson.x
+gcc ssson_xdr.c ssson_svc.c ssson_server.c -o ssson_server
+
+
+gcc ssson_xdr.c ssson_clnt.c ssson_client.c -o ssson_client

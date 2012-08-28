@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_SIZE	ssson_client.c	12;"	d	file:
+SIG_PF	ssson_svc.c	16;"	d	file:
+SSSONPROG	ssson.h	32;"	d
+SSSONVERS	ssson.h	33;"	d
+TIMEOUT	ssson_clnt.c	/^static struct timeval TIMEOUT = { 25, 0 };$/;"	v	typeref:struct:timeval	file:
+_SSSON_H_RPCGEN	ssson.h	7;"	d
+callback	client.c	/^callback(rqstp, transp)$/;"	f
+data	ssson.h	/^	} data;$/;"	m	struct:file	typeref:struct:file::__anon1
+data_len	ssson.h	/^		u_int data_len;$/;"	m	struct:file::__anon1
+data_val	ssson.h	/^		char *data_val;$/;"	m	struct:file::__anon1
+desc	ssson.h	/^	char *desc;$/;"	m	struct:event
+event	ssson.h	/^struct event {$/;"	s
+event	ssson.h	/^typedef struct event event;$/;"	t	typeref:struct:event
+event_id	ssson.h	/^	int event_id;$/;"	m	struct:event
+file	ssson.h	/^struct file {$/;"	s
+file	ssson.h	/^typedef struct file file;$/;"	t	typeref:struct:file
+gettransient	client.c	/^gettransient(proto, vers, portnum)$/;"	f
+main	client.c	/^main()$/;"	f
+main	ssson_client.c	/^int main(int argc, char *argv[])$/;"	f
+main	ssson_svc.c	/^main (int argc, char **argv)$/;"	f
+name	ssson.h	/^	char *name;$/;"	m	struct:file
+rcv_event	ssson.h	42;"	d
+rcv_event	ssson.h	54;"	d
+rcv_event_1	ssson_clnt.c	/^rcv_event_1(int *argp, CLIENT *clnt)$/;"	f
+send_event	ssson.h	36;"	d
+send_event	ssson.h	48;"	d
+send_event_1	ssson_clnt.c	/^send_event_1(struct event *argp, CLIENT *clnt)$/;"	f
+send_event_1_svc	ssson_server.c	/^int *send_event_1_svc(struct event *event, struct svc_req *rqstp)$/;"	f
+send_file	ssson.h	39;"	d
+send_file	ssson.h	51;"	d
+send_file_1	ssson_clnt.c	/^send_file_1(struct file *argp, CLIENT *clnt)$/;"	f
+send_file_1_svc	ssson_server.c	/^int *send_file_1_svc(struct file *file, struct svc_req *rqstp)$/;"	f
+sssonprog_1	ssson_svc.c	/^sssonprog_1(struct svc_req *rqstp, register SVCXPRT *transp)$/;"	f	file:
+xdr_event	ssson_xdr.c	/^xdr_event (XDR *xdrs, event *objp)$/;"	f
+xdr_file	ssson_xdr.c	/^xdr_file (XDR *xdrs, file *objp)$/;"	f
